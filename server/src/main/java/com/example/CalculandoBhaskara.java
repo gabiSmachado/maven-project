@@ -56,7 +56,7 @@ public class CalculandoBhaskara {
 			dc = Double.parseDouble(c);
 
 			if(getDelta() < 0 ){
-				return "Delta é negativo";
+				return "Delta negativo";
 			}else{
 				double raizPositiva;
 				raizPositiva = ((-db + Math.sqrt(getDelta())) / (2 * da));
@@ -77,7 +77,7 @@ public class CalculandoBhaskara {
 			dc = Double.parseDouble(c);
 			
 			if(getDelta() < 0 ){
-				return "Delta é negativo";
+				return "Delta negativo";
 			}else{
 				double raizPositiva;
 				raizPositiva = (( -db - Math.sqrt(getDelta()) ) / (2 * da));
