@@ -9,7 +9,7 @@
 <title>Resultado</title>
 </head>
 <body>
-<jsp:useBean scope="page" id="cal" class="main.java.com.exemple.calculando"></jsp:useBean>
+<jsp:useBean scope="page" id="cal" class="com.exemple.calculando"></jsp:useBean>
 
 <jsp:setProperty property="a" name="cal" value='<%= request.getParameter("a") %>'/>
 <jsp:setProperty property="b" name="cal" value='<%= request.getParameter("b") %>'/>
